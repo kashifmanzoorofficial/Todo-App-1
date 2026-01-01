@@ -1,0 +1,129 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      background-color: rgb(10, 30, 31);
+      color: white;
+      font-family: sans-serif;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 80px auto 0 auto;
+      max-width: 500px;
+     
+  }
+
+  .stats-container {
+      padding: 30px;
+      border-radius: 20px;
+      border: 2px solid white;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+
+  form {
+      margin-top: 60px;
+      width: 100%;
+      display: flex;
+      gap: 10px;
+  }
+
+  input {
+      flex: 1;
+      padding: 16px;
+      background-color: rgb(12, 37, 52);
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      color: #fff;
+  }
+
+  button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: grey;
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+      outline: none;
+      cursor: pointer;
+  }
+
+  .task-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 30px;
+      width: 100%;
+      list-style: none;
+  }
+
+  .task {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .task input {
+      width: 25px;
+      height: 20px;
+  }
+
+  .taskItem {
+      width: 100%;
+      display: flex;
+      background-color: grey;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .container .details p {
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 10px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #fff;
+      margin-bottom: 15px;
+      letter-spacing: 0.5px;
+      position: relative;
+      padding-left: 14px;
+  }
+
+  .completed p {
+      text-decoration: line-through;
+      color: lightgreen;
+  }
+
+  .taskItem img {
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      
+  }
+
+  .fa-trash {
+    color: rgb(179, 24, 24);
+  }
+
+  .taskItem .icons {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+  }
